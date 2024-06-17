@@ -58,7 +58,7 @@ spec:
   type: library
   lifecycle: production
   owner: group:roadiehq/marketing
-  system: sample-system
+  system: juice-shop
   subcomponentOf: sample-service
 
 ---
@@ -74,7 +74,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:roadiehq/engineering
-  system: sample-system
+  system: juice-shop
   definition:
     $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
 
@@ -91,7 +91,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:roadiehq/engineering
-  system: sample-system
+  system: juice-shop
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
 
@@ -104,7 +104,7 @@ metadata:
 spec:
   type: s3-bucket
   owner: team-alpha
-  system: sample-system
+  system: juice-shop
 
 ---
 apiVersion: backstage.io/v1alpha1
